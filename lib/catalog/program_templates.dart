@@ -15,6 +15,41 @@ class ProgramTemplate {
 }
 
 const List<ProgramTemplate> kProgramTemplates = [
+  ProgramTemplate('john_2day_split', 'John 2-Day Split (Push+Leg & Pull+Leg)', [
+    ProgramDay('Push + Leg Day', [
+      ('Cable External Rotation', 2),
+      ('Reverse Fly', 2),
+      ('Incline Dumbbell Press', 3),
+      ('Dumbbell Bench Press', 3),
+      ('Seated Dumbbell Shoulder Press', 3),
+      ('Leg Press', 3),
+      ('Leg Extension', 3),
+      ('Standing Calf Raise', 3),
+      ('Cable Fly', 3),
+      ('Triceps Pushdown', 3),
+      ('Overhead Cable Extension', 3),
+      ('Cable Lateral Raise', 3),
+      ('Ab Crunch Machine', 3),
+      ('Lower Back Extensions', 2),
+    ], weekday: 2),
+    ProgramDay('Pull + Leg Day', [
+      ('Lower Back Extensions', 2),
+      ('Cable External Rotation', 2),
+      ('Straight-Arm Scapular Pulldown', 2),
+      ('Lat Pulldown', 4),
+      ('Seated Cable Row', 3),
+      ('Cable Lat Pushdown', 3),
+      ('Face Pull', 3),
+      ('Leg Curl', 3),
+      ('Seated Leg Press', 3),
+      ('Hip Adductor', 2),
+      ('Hip Abductor', 2),
+      ('Dumbbell Row', 3),
+      ('Dumbbell Bicep Curl', 3),
+      ('Hammer Curl', 3),
+      ('Ab Crunch Machine', 3),
+    ], weekday: 5),
+  ]),
   ProgramTemplate('fullbody', 'Full Body', [
     ProgramDay('Full Body', [
       ('Barbell Squat', 3),
